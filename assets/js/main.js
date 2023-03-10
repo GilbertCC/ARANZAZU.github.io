@@ -290,3 +290,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+document.getElementById('scrollBtn').addEventListener('click', () => {
+  window.scrollTo({
+    top: document.documentElement.clientHeight,
+    behavior: 'smooth'
+  });
+});
+
+
