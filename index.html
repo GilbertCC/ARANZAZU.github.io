@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Aranzazu</title>
+  <title>Aránzazu</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,11 +38,11 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:ventas@aranazazucolombia.com">ventas@aranazazucolombia.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+57 310-288-5190</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="https://wa.link/4lvq1w">+57 310-288-5190</a></span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.link/4lvq1w" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://instagram.com/aranzazu_madre_bendita?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/company/industria-de-alimentos-ar%C3%A1nzazu-sas/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
@@ -73,16 +73,15 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section test  ======= -->
-
-
-  <div class="hero" id="hero">
-    <div class="hero-content">
-      <h2>100% <span>Natural</span></h2>
+  <div class="banner">
+    <div class="banner__description">
+      <h1>100% <span>Natural</span></h1>
       <p>Creemos en los super alimentos, es por eso que todos nuestros productos son 100% puros, crudos y orgánicos para el beneficio de todos y al alcance de todos.</p>
       <button id="scrollBtn">Conócenos</button>
     </div>
   </div>
-  
+
+ 
   <!-- ======= Hero Section ======= -->
 
  
@@ -461,7 +460,7 @@
                   <div class="info-item d-flex">
                     <i class="bi bi-geo-alt flex-shrink-0"></i>
                     <div>
-                      <h4>Location:</h4>
+                      <h4>Ubicación:</h4>
                       <p>km3.8 via Funza-Siberia Parque industrial El Trebol bodega 1B</p>
                     </div>
                   </div><!-- End Info Item -->
@@ -470,7 +469,8 @@
                     <i class="bi bi-envelope flex-shrink-0"></i>
                     <div>
                       <h4>Email:</h4>
-                      <p>ventas@aranazazucolombia.com </p>
+                      <p>ventas</p>
+                       <p>@aranazazucolombia.com</p>
                     </div>
                   </div><!-- End Info Item -->
     
@@ -494,27 +494,17 @@
               </div>
     
               <div class="col-lg-8">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row">
-                    <div class="col-md-6 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
-                    </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="7" placeholder="Mensaje" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Cargando</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Su Mensaje fue enviado</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Enviar</button></div>
+                
+                <form id="form" action="https://formspree.io/f/xzbqkrvp" method="POST">
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              
+                  <label for="message">Mensaje:</label>
+                  <textarea id="message" name="message" required></textarea>
+              
+                  <input type="submit" value="Enviar">
                 </form>
               </div>
             
@@ -541,13 +531,13 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Aranzazu</span>
+            <span>Aránzazu</span>
           </a>
           <p>Compañia que se dedica a la fabricación de los mejores vinagres.  Nuestras variedades de Sidra de Manzana, está elaborada con las  mejores manzanas y materia prima sin ﬁltrar y sin reﬁnar, llenos de  bondad natural del vinagre, lo que signiﬁca que contiene todas las  proteínas y bacterias que hacen que el vinagre sea saludable.</p>
           <div class="social-links d-flex mt-4">
             
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.link/4lvq1w" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://instagram.com/aranzazu_madre_bendita?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/industria-de-alimentos-ar%C3%A1nzazu-sas/" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
